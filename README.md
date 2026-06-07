@@ -1,1 +1,22 @@
-# emart-app
+# E-MART Online Store
+
+## Overview
+A full-stack e-commerce application deployed on AWS EC2 using Docker & Docker Compose.  
+Tech stack: Angular (frontend), Node.js (API), Java (Books API), MongoDB, MySQL, NGINX.
+
+## Architecture
+- **NGINX** → API Gateway & frontend hosting
+- **Client** → Angular frontend
+- **API** → Node.js microservice with MongoDB
+- **WebAPI** → Java microservice with MySQL
+- **Databases** → MongoDB + MySQL
+
+## Deployment
+- Multi-stage Dockerfiles for optimized builds
+- Services orchestrated with Docker Compose
+- Running live at: http://54.90.243.101
+
+## Learnings
+- Containerizing microservices
+- CI/CD pipeline setup with Jenkins
+- Cloud deployment on AWS EC2
